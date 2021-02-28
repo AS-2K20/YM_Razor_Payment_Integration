@@ -63,7 +63,7 @@ The Recommended Step to Integrate a Payment Gateway is after the Step in which w
 **Step 7:** Let’s create a New Function for the Razor Payment Gateway Integration API Code.
 
 **Step 8:** We are going to use a POST request an API call to the Razor Payment Gateway with the required Details as below :
-```js
+```node js
 	let dt = new Date();
 	let max = 10000, min = 100;
  
@@ -117,3 +117,17 @@ The Recommended Step to Integrate a Payment Gateway is after the Step in which w
 	   question: "THERE ARE SOME TECHNICAL ISSUES ! KINDLY TRY AFTER SOME TIME !"
 	});
 ```
+
+**BRIEF EXPLANATION:**
+ 
+1. We are creating an object with __method type__, __url__, __headers__ and __data__. 
+2. Then, We are creating the required key value pairs (i.e) __Authorization Value__ and Content-Type for the __headers__ object.
+3. Then, We are passing the required data in the key value pair format to the data object.
+4. Then, We are passing that object which contains all the above information to the __app.axios()__ method and we are storing this result in a variable. 
+
+NOTE:
+ 
+* To know about axios, go through this link : 
+	https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/   
+
+* Our YM Platform __does not support__ Shorthand methods for Axios HTTP requests such as axios.get(), axios.post() etc.
