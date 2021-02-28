@@ -28,7 +28,7 @@ __Only__ when you generate a new API key for the __first time__, you can see the
 
 **Step 5:** For the API request of Razorpay Payment, we have to use __Basic Auth Authorization__.
 
-To get the Basic Auth Authorization value, we are gonna use the __POSTMAN(v8.0.6)__ application.  
+To get the Basic Auth Authorization value, we are gonna use the __POSTMAN__(v8.0.6) application.  
 
 1. Open POSTMAN application, click on __New -> Collection__ and create a collection with a name.
 
@@ -39,3 +39,7 @@ To get the Basic Auth Authorization value, we are gonna use the __POSTMAN(v8.0.6
 4. Open the downloaded file which contains your API keys.
 
 5. Give __Key Id in Username__ Textbox and __Key Secret in Password__ Textbox.
+
+<br/>
+<img width="1440" alt="Screenshot 2021-02-26 at 10 54 39 PM" src="https://user-images.githubusercontent.com/66553883/109415302-e2848100-79dd-11eb-9a43-d319eb5c3960.png">
+
