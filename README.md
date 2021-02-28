@@ -22,5 +22,6 @@ NOTE: There are 2 modes in Razor Payment Gateway:
 NOTE:
 
 __Only__ when you generate a new API key for the __first time__, you can see the __Key Secret__ value. So make sure to save the key details in a safe accessible place.
+
 <br/>
 <img width="1440" alt="Screenshot 2021-02-24 at 10 24 04 AM" src="https://user-images.githubusercontent.com/66553883/109415077-9127c200-79dc-11eb-8843-c7c06e5e1974.png">
