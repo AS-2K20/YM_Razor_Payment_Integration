@@ -127,7 +127,5 @@ The Recommended Step to Integrate a Payment Gateway is after the Step in which w
 
 NOTE:
  
-* To know about axios, go through this link : 
-	https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/   
-
+* To know about axios, go through this link : https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/   
 * Our YM Platform __does not support__ Shorthand methods for Axios HTTP requests such as axios.get(), axios.post() etc.
