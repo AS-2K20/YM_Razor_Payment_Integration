@@ -86,7 +86,7 @@ The Recommended Step to Integrate a Payment Gateway is after the Step in which w
 		"amount": totalPrice, //MANDATORY ; amount value should be in the smallest unit of the given currency value ; For INR, it should be ‘paise’
 		"currency": "INR",//MANDATORY
 		"description": "YM Restaurant Orders Payment",//MANDATORY
-		"receipt": "Receipt No : " + Math.floor(Math.random() * (max - min + 1) + min), //optional ; to display receipt string in the payment gateway
+		"receipt": "Receipt No : " + Math.floor(Math.random() * (max - min + 1) + min), //optional; IF PASSED, IT MUST BE UNIQUE FOR EACH TRANSACTION ; to display receipt string in the payment gateway
 		"sms_notify": 1, //optional ; 0 - No, 1- Yes ; If you want to send the Payment link via SMS
 		"email_notify": 1, //optional ;  0 - No, 1- Yes; If you want to send the Payment Link via EMAIL
 		"expire_by": Math.round(dt.getTime() / 1000), //optional; link expiry time
