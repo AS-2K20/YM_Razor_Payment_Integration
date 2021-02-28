@@ -171,3 +171,13 @@ https://app.yellowmessenger.com/integrations/razorpay
 		}
 	}
 ```
+
+**BRIEF EXPLANATION:**
+
+1. When the payment is successfully completed, the webhook we created in the razor pay dashboard gets triggered and it sends back the event code __`razorpay-payment`__ to our chatbot.
+
+2. So, If an event code of __`razorpay-payment`__ occurs with the event’s data’s status as __`paid`__ and if the amount paid is greater than 0 INR (since we are using the smallest unit of the given currency i.e __Paise__ for the amount value, we are dividing it with 100 for converting back to INR ), we are sending a Text Message to the user such as ‘Payment is Successful’.
+
+NOTE:
+
+As Mentioned above in the first NOTE, inside this function, we can store the user’s cart details to the DataBase as the Payment is Successfully made.
