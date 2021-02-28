@@ -14,7 +14,7 @@ NOTE: There are 2 modes in Razor Payment Gateway:
 * __Test Mode:__ This mode is for testing and for developers who are just getting started in Razor Payment Integration. Test Mode is completely Free of Charge. No real charges will be made, even if we give our valid card details in the Razor Payment Gateway Page.
 
 * __Live Mode:__ As the name suggests, In the Live Mode, we would be charged for real. In order to work on Live Mode, we have to give our bank account and KYC Details.
-<br/>
+
 <img width="1440" alt="Screenshot 2021-02-24 at 9 45 11 AM" src="https://user-images.githubusercontent.com/66553883/109414390-9d118500-79d8-11eb-85cf-605b3be5175b.png">
 
 **Step 4:** In the Dashboard, Go to __Settings__ and click on __API Keys__ Tab. Generate a New Key. Click on the __Download Key Details__ and save the key details in a safe location. Click Ok.
@@ -23,7 +23,6 @@ NOTE:
 
 __Only__ when you generate a new API key for the __first time__, you can see the __Key Secret__ value. So make sure to save the key details in a safe accessible place.
 
-<br/>
 <img width="1440" alt="Screenshot 2021-02-24 at 10 24 04 AM" src="https://user-images.githubusercontent.com/66553883/109415077-9127c200-79dc-11eb-8843-c7c06e5e1974.png">
 
 **Step 5:** For the API request of Razorpay Payment, we have to use __Basic Auth Authorization__.
@@ -40,7 +39,6 @@ To get the Basic Auth Authorization value, we are gonna use the __POSTMAN__(v8.0
 
 5. Give __Key Id in Username__ Textbox and __Key Secret in Password__ Textbox.
 
-<br/>
 <img width="1440" alt="Screenshot 2021-02-26 at 10 54 39 PM" src="https://user-images.githubusercontent.com/66553883/109415302-e2848100-79dd-11eb-9a43-d319eb5c3960.png">
 
 6. After giving the values in the username and password textboxes, go to __Headers__ tab.
@@ -49,7 +47,6 @@ To get the Basic Auth Authorization value, we are gonna use the __POSTMAN__(v8.0
 
 8. Click on the __value of the Authorization__ key and Copy it.
 
-<br/>
 <img width="1440" alt="Screenshot 2021-02-26 at 11 12 14 PM" src="https://user-images.githubusercontent.com/66553883/109415441-be756f80-79de-11eb-922b-f1f70c2cd463.png">
 
 **Step 6:** Now let's go to the Developer Section of our ChatBot in the YM Platform. 
@@ -159,4 +156,4 @@ https://app.yellowmessenger.com/integrations/razorpay
 
 **STEP 15:** In the Active Events, Click on the __Invoice Events checkbox__ so that all the sub events in it get clicked. 
 
-<brr/>
+<br/>
