@@ -63,7 +63,7 @@ The Recommended Step to Integrate a Payment Gateway is after the Step in which w
 **Step 7:** Let’s create a New Function for the Razor Payment Gateway Integration API Code.
 
 **Step 8:** We are going to use a POST request an API call to the Razor Payment Gateway with the required Details as below :
-```js
+```nodejs
 	let dt = new Date();
 	let max = 10000, min = 100;
  
