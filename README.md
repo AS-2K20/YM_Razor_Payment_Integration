@@ -156,4 +156,7 @@ https://app.yellowmessenger.com/integrations/razorpay
 
 **STEP 15:** In the Active Events, Click on the __Invoice Events checkbox__ so that all the sub events in it get clicked. 
 
-<br/>
+<img width="1440" alt="Screenshot 2021-02-26 at 11 51 42 PM" src="https://user-images.githubusercontent.com/66553883/109416579-18793380-79e5-11eb-8746-bede7c73e683.png">
+
+**STEP 16:** Click on __Create Webhook__ Button. Once this is Successful, For All the types of Payment Events which were mentioned in the Webhook, an event would get Triggered in our YM Chatbot. 
+
