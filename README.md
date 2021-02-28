@@ -30,12 +30,12 @@ __Only__ when you generate a new API key for the __first time__, you can see the
 
 To get the Basic Auth Authorization value, we are gonna use the __POSTMAN(v8.0.6)__ application.  
 
-Open POSTMAN application, click on __New -> Collection__ and create a collection with a name.
+1. Open POSTMAN application, click on __New -> Collection__ and create a collection with a name.
 
-Click on __New -> Request__. Give a Request Name and save it to the collection which we created above.
+2. Click on __New -> Request__. Give a Request Name and save it to the collection which we created above.
 
-Click on __Authorization__ Tab, click __Type__ and select __Basic Auth__.
+3. Click on __Authorization__ Tab, click __Type__ and select __Basic Auth__.
 
-Open the downloaded file which contains your API keys.
+4. Open the downloaded file which contains your API keys.
 
-Give __Key Id in Username__ Textbox and __Key Secret in Password__ Textbox.
+5. Give __Key Id in Username__ Textbox and __Key Secret in Password__ Textbox.
