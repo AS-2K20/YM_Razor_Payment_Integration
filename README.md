@@ -160,3 +160,14 @@ https://app.yellowmessenger.com/integrations/razorpay
 
 **STEP 16:** Click on __Create Webhook__ Button. Once this is Successful, For All the types of Payment Events which were mentioned in the Webhook, an event would get Triggered in our YM Chatbot. 
 
+**STEP 17:** When the Invoice Paid Event gets triggered by the webhook defined in the razor pay dashboard, we want to capture it and then display an appropriate message to the user. To do this, we use the following code in the __main__ function on the developer section of our chatbot : 
+
+```node js
+	if(app.data && app.data.event){
+	//app.log(app.data,"THIS IS APP.DATA INSIDE MAIN FUNCTION !");
+	if (app.data.event.code == 'razorpay-payment' && app.data.event.data && app.data.event.data.status == "paid" && ((app.data.event.data.amount_paid / 100) > 0)) {
+	   await app.sendTextMessage("🥳 PAYMENT SUCCESSFULL !");
+	   //app.log("🥳 PAYMENT SUCCESSFULL !");
+	}
+	}
+```
