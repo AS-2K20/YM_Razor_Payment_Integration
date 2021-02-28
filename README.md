@@ -145,3 +145,18 @@ To learn about Webhooks and the difference between them and API, I suggest you g
 
 * <a href="https://medium.com/@ishmeet1995/lets-talk-about-webhooks-part-1-theory-9fc66bd3413d">Let’s talk about Webhooks</a>
 * <a href="https://medium.com/hackernoon/webhook-vs-api-whats-the-difference-8d41e6661652">Webhook vs API: What’s the Difference?</a>
+
+**STEP 10:** We have to configure the Webhook in the <a href="https://razorpay.com/">Razor Payment</a> Gateway Dashboard. So, Go to Razor Payment and Sign in using your login credentials. Go to the Dashboard page.
+
+**STEP 11:** Click on the Settings option and click on the Webhooks tab. Click on the Add New Webhook button.
+
+**STEP 12:** In the Webhook URL, give the following URL: 
+https://app.yellowmessenger.com/integrations/razorpay
+
+**STEP 13:** For more or added security, you can use a Secret but this is Optional. 
+
+**STEP 14:** In the Alert Email, You can give your email address.
+
+**STEP 15:** In the Active Events, Click on the __Invoice Events checkbox__ so that all the sub events in it get clicked. 
+
+<brr/>
