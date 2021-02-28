@@ -58,7 +58,7 @@ NOTE:
 
 The Recommended Step to Integrate a Payment Gateway is after the Step in which we get the cart details of the products which users want to buy from us. 
 
-	-> After the Successful Payment, we can store the cart details in our DataBase and then show a message to the user that the order has been successfully placed.
+	-> After the Successful Payment, we can store the cart details in our DataBase.
 
 **Step 6:** Let’s create a New Function for the Razor Payment Gateway Integration API Code.
 
