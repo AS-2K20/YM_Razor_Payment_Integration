@@ -77,9 +77,9 @@ The Recommended Step to Integrate a Payment Gateway is after the Step in which w
 	   },
 	   data: {
 		"customer": { //optional ; we can sent these details of user in this customer object
-		"name":”XYZ”,
-		"email":”xyz@xyz.com”,
-		"contact": 9678954326
+			"name":”XYZ”,
+			"email":”xyz@xyz.com”,
+			"contact": 9678954326
 		},
 		"type": "link", //MANDATORY
 		"view_less": 1, //optional
