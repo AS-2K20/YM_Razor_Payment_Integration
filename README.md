@@ -129,3 +129,19 @@ NOTE:
  
 * To know about axios, go through this link : https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/   
 * Our YM Platform __does not support__ Shorthand methods for Axios HTTP requests such as axios.get(), axios.post() etc.
+
+5. Once the above API Call is Successful, we would get some objects in the result variable.
+6. If we want to see or access the data in the result variable, we have to use __.data__ along with the result variable.
+7. The payment link will be in the key called __short_url__. So, To Access it, we use __.data.short_url__ along with the result variable.
+8. We access it and show it to the user using app.sendTextMessage().
+9. Now, The User has to click on this short_url. This will take them to the Razor Payment Gateway Page where they can complete the Payment via Debit/Credit Cards, 
+Net Banking, UPI etc.
+
+**STEP 9:** We have to configure a Webhook so that upon Successful completion of the Payment, we can save the User’s Order Details in our DataBase and show some response to the user such as ` YOUR ORDER HAS BEEN PLACED SUCCESSFULLY ! `.
+ 
+NOTE:
+ 
+To learn about Webhooks and the difference between them and API, I suggest you go through these medium articles:
+
+* <a href="https://medium.com/@ishmeet1995/lets-talk-about-webhooks-part-1-theory-9fc66bd3413d">Let’s talk about Webhooks</a>
+* <a href="https://medium.com/hackernoon/webhook-vs-api-whats-the-difference-8d41e6661652">Webhook vs API: What’s the Difference?</a>
