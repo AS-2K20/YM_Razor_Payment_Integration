@@ -1,2 +1,2 @@
-# YM_Razor_Payment_Integration
-Documentation on How to Connect Razor Payment Gateway with a Chatbot which is developed using Yellow Messenger
+<h1 align="center"> RAZOR PAYMENT GATEWAY INTEGRATION IN YM CHATBOT </h1>
+<h2 align="center"> ( USING CODE IN DEVELOPER SECTION ) </h2>
