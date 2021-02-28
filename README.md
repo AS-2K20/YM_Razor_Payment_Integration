@@ -164,10 +164,10 @@ https://app.yellowmessenger.com/integrations/razorpay
 
 ```node js
 	if(app.data && app.data.event){
-	//app.log(app.data,"THIS IS APP.DATA INSIDE MAIN FUNCTION !");
-	if (app.data.event.code == 'razorpay-payment' && app.data.event.data && app.data.event.data.status == "paid" && ((app.data.event.data.amount_paid / 100) > 0)) {
-	   await app.sendTextMessage("🥳 PAYMENT SUCCESSFULL !");
-	   //app.log("🥳 PAYMENT SUCCESSFULL !");
-	}
+		//app.log(app.data,"THIS IS APP.DATA INSIDE MAIN FUNCTION !");
+		if (app.data.event.code == 'razorpay-payment' && app.data.event.data && app.data.event.data.status == "paid" && ((app.data.event.data.amount_paid / 100) > 0)) {
+		   await app.sendTextMessage("🥳 PAYMENT SUCCESSFULL !");
+		   //app.log("🥳 PAYMENT SUCCESSFULL !");
+		}
 	}
 ```
