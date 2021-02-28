@@ -43,3 +43,24 @@ To get the Basic Auth Authorization value, we are gonna use the __POSTMAN__(v8.0
 <br/>
 <img width="1440" alt="Screenshot 2021-02-26 at 10 54 39 PM" src="https://user-images.githubusercontent.com/66553883/109415302-e2848100-79dd-11eb-9a43-d319eb5c3960.png">
 
+6. After giving the values in the username and password textboxes, go to __Headers__ tab.
+
+7. If No Headers key value pairs are visible, Click on the hidden eye option and you would see all the key value pairs in the Headers.
+
+8. Click on the __value of the Authorization__ key and Copy it.
+
+<br/>
+<img width="1440" alt="Screenshot 2021-02-26 at 11 12 14 PM" src="https://user-images.githubusercontent.com/66553883/109415441-be756f80-79de-11eb-922b-f1f70c2cd463.png">
+
+**Step 5:** Now let's go to the Developer Section of our ChatBot in the YM Platform. 
+
+NOTE:
+
+The Recommended Step to Integrate a Payment Gateway is after the Step in which we get the cart details of the products which users want to buy from us. 
+
+	-> After the Successful Payment, we can store the cart details in our DataBase and then show a message to the user that the order has been successfully placed.
+
+**Step 6:** Let’s create a New Function for the Razor Payment Gateway Integration API Code.
+
+**Step 7:** We are going to use a POST request an API call to the Razor Payment Gateway with the required Details as below :
+
