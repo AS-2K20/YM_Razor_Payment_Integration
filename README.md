@@ -126,10 +126,10 @@ The Recommended Step to Integrate a Payment Gateway is after the Step in which w
 4. Then, We are passing that object which contains all the above information to the __app.axios()__ method and we are storing this result in a variable. 
 
 NOTE:
-> 
+ 
 > * To know about axios, go through this link : https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/   
 > * Our YM Platform __does not support__ Shorthand methods for Axios HTTP requests such as axios.get(), axios.post() etc.
->
+
 5. Once the above API Call is Successful, we would get some objects in the result variable.
 6. If we want to see or access the data in the result variable, we have to use __.data__ along with the result variable.
 7. The payment link will be in the key called __short_url__. So, To Access it, we use __.data.short_url__ along with the result variable.
