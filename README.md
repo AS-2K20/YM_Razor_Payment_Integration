@@ -100,15 +100,18 @@ The Recommended Step to Integrate a Payment Gateway is after the Step in which w
 	};
 
 	let response = await app.axios(config);
+	
 	//app.log(response.data, "THIS IS POST AXIOS data !");
 	//app.log(response.status,"THIS IS POST AXIOS STATUS !");
 	//app.log(response.statusText, "THIS IS POST AXIOS statusText !");
+	
 	if (response.data.short_url) {
 	   //app.log(response.data.short_url, "THIS IS response.data.short_url !");
 	   await app.sendTextMessage("PAYMENT LINK: ");
 	   await app.sendTextMessage(response.data.short_url);
 	   return resolve();
 	}
+	
 	return resolve({
 	   success: false,
 	   question: "THERE ARE SOME TECHNICAL ISSUES ! KINDLY TRY AFTER SOME TIME !"
