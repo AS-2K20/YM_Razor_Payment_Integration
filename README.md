@@ -17,7 +17,7 @@ NOTE: There are 2 modes in Razor Payment Gateway:
 <br/>
 <img width="1440" alt="Screenshot 2021-02-24 at 9 45 11 AM" src="https://user-images.githubusercontent.com/66553883/109414390-9d118500-79d8-11eb-85cf-605b3be5175b.png">
 <br/>
-__Step 4:__ In the Dashboard, Go to Settings and click on API Keys Tab. Generate a New Key. Click on the Download Key Details and save the key details in a safe location. Click Ok.
+**Step 4:** In the Dashboard, Go to Settings and click on API Keys Tab. Generate a New Key. Click on the Download Key Details and save the key details in a safe location. Click Ok.
 
 NOTE:
 
