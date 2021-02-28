@@ -76,26 +76,26 @@ The Recommended Step to Integrate a Payment Gateway is after the Step in which w
 	       'Content-Type': 'application/json'
 	   },
 	   data: {
-	       "customer": { //optional ; we can sent these details of user in this customer object
-	       "name":”XYZ”,
-	       "email":”xyz@xyz.com”,
-	       "contact": 9678954326
-	   },
-	   "type": "link", //MANDATORY
-	   "view_less": 1, //optional
-	   "amount": totalPrice, //MANDATORY ; amount value should be in the smallest unit of the given currency value ; For INR, it should be ‘paise’
-	   "currency": "INR",//MANDATORY
-	   "description": "YM Restaurant Orders Payment",//MANDATORY
-	   "receipt": "Receipt No : " + Math.floor(Math.random() * (max - min + 1) + min), //optional ; to display receipt string in the payment gateway
-	   "sms_notify": 1, //optional ; 0 - No, 1- Yes ; If you want to send the Payment link via SMS
-	   "email_notify": 1, //optional ;  0 - No, 1- Yes; If you want to send the Payment Link via EMAIL
-	   "expire_by": Math.round(dt.getTime() / 1000), //optional; link expiry time
-	   "notes": { //MANDATORY ; SENDER,SOURCE AND BOT KEY ARE MANDATORY ! From these 3 keys, we are able to identify whom and from which bot is making the razor payment ! If we want to send any additional information, we use this notes object
-	       "sender": app.sender,
-	       "source": app.source,
-	       "bot": botId
-	       // "bot": "x5189765732960"
-	   }
+		"customer": { //optional ; we can sent these details of user in this customer object
+		"name":”XYZ”,
+		"email":”xyz@xyz.com”,
+		"contact": 9678954326
+		},
+		"type": "link", //MANDATORY
+		"view_less": 1, //optional
+		"amount": totalPrice, //MANDATORY ; amount value should be in the smallest unit of the given currency value ; For INR, it should be ‘paise’
+		"currency": "INR",//MANDATORY
+		"description": "YM Restaurant Orders Payment",//MANDATORY
+		"receipt": "Receipt No : " + Math.floor(Math.random() * (max - min + 1) + min), //optional ; to display receipt string in the payment gateway
+		"sms_notify": 1, //optional ; 0 - No, 1- Yes ; If you want to send the Payment link via SMS
+		"email_notify": 1, //optional ;  0 - No, 1- Yes; If you want to send the Payment Link via EMAIL
+		"expire_by": Math.round(dt.getTime() / 1000), //optional; link expiry time
+		"notes": { //MANDATORY ; SENDER,SOURCE AND BOT KEY ARE MANDATORY ! From these 3 keys, we are able to identify whom and from which bot is making the razor payment ! If we want to send any additional information, we use this notes object
+		"sender": app.sender,
+		"source": app.source,
+		"bot": botId
+		// "bot": "x5189765732960"
+		}
 	   }
 	};
 
